@@ -1,9 +1,9 @@
 {
   "name": "@shopify/theme-addresses",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A library that helps developers work with addresses within Shopify Themes",
   "main": "dist/theme-addresses.cjs.js",
-  "module": "theme-addresses.js",
+  "module": "theme-addresses.ts",
   "repository": "https://github.com/Shopify/theme-scripts/tree/master/packages/theme-addresses",
   "keywords": [
     "slate"
@@ -27,7 +27,7 @@
   },
   "size-limit": [
     {
-      "path": "theme-addresses.js"
+      "path": "theme-addresses.ts"
     }
   ]
 }

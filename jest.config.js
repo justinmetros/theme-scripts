@@ -1,9 +1,12 @@
 module.exports = {
-  preset: 'jest-puppeteer',
+  preset: 'ts-jest',
+  testEnvironment: 'node',
   setupTestFrameworkScriptFile: 'expect-puppeteer',
   testPathIgnorePatterns: ['.eslintrc.js'],
   transform: {
     "^.+\\.js$": "babel-jest",
-    '^.+\\.txt$': 'jest-raw-loader'
+    "^.+\\.ts$": "ts-jest",
+    '^.+\\.txt$': 'jest-raw-loader',
+    '^.+\\.html$': 'jest-raw-loader'
   }
 };
